@@ -1,0 +1,30 @@
+#TopLuck-HiroTeam plugin by RomainSav | Plugin de TopLuck-HiroTeam par RomainSav
+#██╗░░██╗██╗██████╗░░█████╗░████████╗███████╗░█████╗░███╗░░░███╗
+#██║░░██║██║██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗████╗░████║
+#███████║██║██████╔╝██║░░██║░░░██║░░░█████╗░░███████║██╔████╔██║
+#██╔══██║██║██╔══██╗██║░░██║░░░██║░░░██╔══╝░░██╔══██║██║╚██╔╝██║
+#██║░░██║██║██║░░██║╚█████╔╝░░░██║░░░███████╗██║░░██║██║░╚═╝░██║
+#╚═╝░░╚═╝╚═╝╚═╝░░╚═╝░╚════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝
+#description:
+#FRA: Ce plugin vous permet de trouver les potentiels cheaters sur votre serveur !
+#ENG: This plugin allows you to find potential cheaters on your server !
+
+#FRA: Vous pouvez choisir entre sqlite3 pour la sauvegarde des données en local ou en mysql pour la communication interserveur
+#ENG: You can choice sqlite3 for local data or mysql for wide data
+
+#You can chose between 'sqlite' and 'mysql'
+provider: 'sqlite'
+
+mysql:
+  host: '127.0.0.1'
+  user: 'root'
+  password: 'root'
+  db_name: 'topluck'
+
+playerStatsUpdate: 60 #time in min
+
+allBlocks: #Blocks that will be accounted for in the results
+  - ''
+
+raresBlocks: #Blocks that are as rare as diamonds
+  - '56:0'
