@@ -1,5 +1,5 @@
 # TopLuck-HiroTeam
-->track the cheaters on your server
+-> track the cheaters on your server
 ---
 ### About
 [ENG] This is a [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) (or forks) plugin allows you to find the cheaters on your server ! :grin: <br/>
