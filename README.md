@@ -16,9 +16,9 @@ Ce plugin enregistre les blocs cassés pour trouver si les joueurs cheat ou non 
 
 ---
 ### Permissions
-[ENG] `topluck.command` Allow you to execute the command</br>
+[ENG] `topluck.command` Allow you to execute the commands</br>
 
-[FRA] `topluck.command` Vous permet d'exécuter la commande</br>
+[FRA] `topluck.command` Vous permet d'exécuter la commandes</br>
 
 ---
 ### **This plugin was tested (and works) on:**
