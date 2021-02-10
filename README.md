@@ -15,6 +15,12 @@ Ce plugin enregistre les blocs cassés pour trouver si les joueurs cheat ou non 
 [FRA] Configurer dans le config.yml votre base de donnée (mysql ou sqlite3) préféré et les blocs que vous voulez enregistrer</br>
 
 ---
+### Permissions
+[ENG] `topluck.command` Allow you to execute the command</br>
+
+[FRA] `topluck.command` Vous permet d'exécuter la commande</br>
+
+---
 ### **This plugin was tested (and works) on:**
 
 - [x] **[PocketMine-MP](https://github.com/pmmp/PocketMine-MP)**
