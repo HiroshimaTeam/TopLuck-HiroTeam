@@ -64,8 +64,8 @@ class FormsManager
         foreach ($this->main->getServer()->getOnlinePlayers() as $p) {
 
             $pInstance = $this->main->getManager()->getLuckyPlayerInstance($p->getName());
-
-            $form->addButton($p->getName() . "\n§c" . $pInstance->getPercentage(), -1, '', $p->getName());
+            $percentage = $pInstance ? $pInstance->getPercentage() : 0;
+            $form->addButton($p->getName() . "\n§c" . $percentage, -1, '', $p->getName());
 
         }
         $form->sendToPlayer($player);
@@ -98,7 +98,10 @@ class FormsManager
         });
         $instance = $this->main->getManager()->getLuckyPlayerInstance($luckyPlayer);
         $form->setTitle("- TopLuck-HiroTeam -");
-        $form->setContent("Player: ".$luckyPlayer . "\n\nPercentage: " . $instance->getPercentage() . "\n\nAll blocks: " . number_format($instance->getAllMinedBlocks(), 0, ".", "'") . "\n\nRare blocks: " . number_format($instance->getAllRareMinedBlocks(), 0, ".", "'"));
+        $percentage = $instance ? $instance->getPercentage() : 0;
+        $allMinedBlocks = $instance ? $instance->getAllMinedBlocks() : 0;
+        $allRareMinedBlocks = $instance ? $instance->getAllRareMinedBlocks() : 0;
+        $form->setContent("Player: ".$luckyPlayer . "\n\nPercentage: " . $percentage . "\n\nAll blocks: " . number_format($allMinedBlocks, 0, ".", "'") . "\n\nRare blocks: " . number_format($allRareMinedBlocks, 0, ".", "'"));
         $form->addButton("Teleportation", -1, '', 'teleportation');
         $form->addButton("Back", -1, '', 'back');
         $form->sendToPlayer($player);
