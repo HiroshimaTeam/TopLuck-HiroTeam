@@ -133,6 +133,7 @@ class LuckyPlayerModel
         }
         foreach ($this->main->getConfig()->getAll()['allBlocks'] as $param) {
 
+                $this->allBlocks++;
                 return;
 
             }
