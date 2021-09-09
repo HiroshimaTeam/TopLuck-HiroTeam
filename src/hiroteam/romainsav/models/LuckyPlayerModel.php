@@ -130,14 +130,9 @@ class LuckyPlayerModel
                 return;
 
             }
-
         }
-
         foreach ($this->main->getConfig()->getAll()['allBlocks'] as $param) {
 
-            if ($param === $block->getId() . ":" . $block->getDamage()) {
-
-                $this->rareBlocks++;
                 return;
 
             }
