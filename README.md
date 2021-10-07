@@ -1,4 +1,4 @@
-# TopLuck-HiroTeam
+# TopLuck-HiroTeam patch by royal
 ---
 ### About
 ![TopLuck](https://user-images.githubusercontent.com/65712904/109392756-2c0d9700-791e-11eb-9bf0-b54ede535422.png)
